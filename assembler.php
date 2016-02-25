@@ -4,6 +4,8 @@
  * CSE 230 Aviral Shrivastava
  * http://alanhogan.com/contact
  *
+ * Licensed under CC BY-NC-SA 4.0; please see README for more information
+ *
  * PLEASE SEE THIS FILE IN ACTION at http://alanhogan.com/asu/assembler.php
  **/
 
