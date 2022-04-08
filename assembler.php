@@ -431,7 +431,8 @@ function trim_self(&$string) { $string = trim($string); }
 if (strlen($_POST['input'])) {
     //Process input!
     $input = $_POST['input'];
-    if (get_magic_quotes_gpc()) {
+    if (
+        function_exists("get_magic_quotes_gpc") && get_magic_quotes_gpc()) {
         $input = stripslashes($input);
     }
     
